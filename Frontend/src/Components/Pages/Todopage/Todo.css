@@ -1,0 +1,68 @@
+.mainDiv{
+    margin-top: 3%;
+    justify-content: center;
+    text-align: center;
+    font-size: 61px;
+    color: rgb(30, 19, 183);
+}
+.mainSpan{
+    color: rgb(235, 100, 33);
+}
+
+.largerIcon {
+    font-size: large;
+  }
+
+
+/* TodoForm Css */
+.input{
+    /* background-color: aqua; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    font-size: 40px;
+    width: 50%;
+    margin-top:7vh;
+    margin-left: 25%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid blue;
+}
+
+
+
+.signImg{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin-left: 31%;
+}
+
+.icon:hover{
+    transform: translate(2px );
+
+}
+
+
+
+
+/* Todo.css */
+
+.todo-list {
+    list-style-type: decimal; /* Use 'decimal' for numeric numbering */
+    padding-left: 95px; /* Adjust the left padding as needed */
+}
+
+.todo-list li {
+    margin-top: 25px;
+    margin-bottom: 22px; /* Adjust the margin between list items */
+    font-size: 34px;
+    border-bottom: 2px solid rgb(231, 119, 214);
+    width: 54%;
+    margin-left: 20%;
+    
+  }
+
+  .DelIcon{
+    color: red;
+   
+  }
